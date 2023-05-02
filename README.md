@@ -21,7 +21,7 @@ The general format of a conventional commit message is:
 
 ## Here are the components:
 
-1. **&lt;type&gt;**: A short string indicating the purpose of the commit. Common types include:
+1. **\<type>**: A short string indicating the purpose of the commit. Common types include:
 - ***feat***: A new feature
 - ***fix***: A bug fix
 - ***chore***: Tasks that don't modify the code, like updating dependencies or build scripts
@@ -35,11 +35,11 @@ The general format of a conventional commit message is:
 - ***revert***: Reverting a previous commit
 2. **(&lt;scope&gt;)**: Optional. A short description of the part of the codebase the commit affects, typically enclosed in parentheses. This can be a module, component, or specific area of the code.
 
-3. **&lt;description&gt;**: A brief, imperative description of the change, e.g., "Add user login functionality" or "Fix memory leak in image processing".
+3. **\<description>**: A brief, imperative description of the change, e.g., "Add user login functionality" or "Fix memory leak in image processing".
 
-4. **&lt;body&gt;**: Optional. A more detailed explanation of the commit, if necessary. It should explain the motivation for the change and contrast it with previous behavior.
+4. **\<body>**: Optional. A more detailed explanation of the commit, if necessary. It should explain the motivation for the change and contrast it with previous behavior.
 
-5. **&lt;footer&gt;**: Optional. This section can include references to related issues or commits, such as "Closes #123" or "See #456 for more information."
+5. **\<footer>**: Optional. This section can include references to related issues or commits, such as "Closes #123" or "See #456 for more information."
 
 **Example of a "good" commit:**
 ```markdown
