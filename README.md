@@ -33,7 +33,7 @@ The general format of a conventional commit message is:
 - ***build***: Changes to the build system or external dependencies
 - ***ci***: Changes to continuous integration configuration files and scripts
 - ***revert***: Reverting a previous commit
-2. (&lt;scope&gt;): Optional. A short description of the part of the codebase the commit affects, typically enclosed in parentheses. This can be a module, component, or specific area of the code.
+2. **(&lt;scope&gt;)**: Optional. A short description of the part of the codebase the commit affects, typically enclosed in parentheses. This can be a module, component, or specific area of the code.
 
 3. **&lt;description&gt;**: A brief, imperative description of the change, e.g., "Add user login functionality" or "Fix memory leak in image processing".
 
